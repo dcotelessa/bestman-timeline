@@ -1,0 +1,901 @@
+{
+    "translations":
+    {
+        "en":
+        {
+            "splash_logo":
+            {
+                "tags": [".splashheader"],
+                "src": "images/specific/splash.png",
+                "hrf": "#"
+            },
+            "splash_description":
+            {
+                "tags":[".splash-description"],
+                "txt": "Navigate through the Best Man Timeline to see what \ryour favorite characters have been up to since you last saw them."
+            },
+            "splash_navigation":
+            {
+                "tags": [".splash-navigation"],
+                "txt": "USE ARROW KEYS TO NAVIGATE"
+            },
+            "menu_logo":
+            {
+                "tags": [".logo"],
+                "src": "images/specific/logo.png",
+                "hrf": "#"
+            },
+            "menu_description":
+            {
+                "tags": [".filtermenu-header"],
+                "txt": "Filter images in the timeline below by selecting your favorite Best Man characters."
+            },
+            "seemore":
+            {
+                "tags": [".galleryimage-more"],
+                "txt": "See more images for this year"
+            },
+            "img1":
+            {
+                "teaserheadline":"FEBRUARY 7",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"FEBRUARY 7, 2000",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img2":
+            {
+                "teaserheadline":"SEPTEMBER 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"SEPTEMBER 1, 2001",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img3":
+            {
+                "teaserheadline":"DECEMBER 30",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"DECEMBER 30, 2001",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img4":
+            {
+                "teaserheadline":"DECEMBER 31",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"DECEMBER 31, 2001",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img5":
+            {
+                "teaserheadline":"JULY 3",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JULY 3, 2002",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img6":
+            {
+                "teaserheadline":"JULY 3",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JULY 3, 2003",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img7":
+            {
+                "teaserheadline":"JULY 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JULY 1, 2004",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img8":
+            {
+                "teaserheadline":"MARCH 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"MARCH 1, 2005",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img9":
+            {
+                "teaserheadline":"APRIL 22",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"APRIL 22, 2005",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img10":
+            {
+                "teaserheadline":"JANUARY 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JANUARY 1, 2006",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img11":
+            {
+                "teaserheadline":"NOVEMBER 5",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"NOVEMBER 5, 2006",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img12":
+            {
+                "teaserheadline":"MAY 8",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"MAY 8, 2007",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img13":
+            {
+                "teaserheadline":"JUNE 8",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JUNE 8, 2007",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img14":
+            {
+                "teaserheadline":"MARCH 7",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"MARCH 7, 2008",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img15":
+            {
+                "teaserheadline":"MAY 10",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"MAY 10, 2008",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img16":
+            {
+                "teaserheadline":"JUNE 3",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JUNE 3, 2008",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img17":
+            {
+                "teaserheadline":"APRIL 2",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"APRIL 2, 2009",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img18":
+            {
+                "teaserheadline":"JULY 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JULY 1, 2009",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img19":
+            {
+                "teaserheadline":"SEPTEMBER 3",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"SEPTEMBER 3, 2009",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img20":
+            {
+                "teaserheadline":"JANUARY 4",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JANUARY 4, 2010",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img21":
+            {
+                "teaserheadline":"JUNE 21",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JUN 21, 2010",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img22":
+            {
+                "teaserheadline":"NOVEMBER 9",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"NOVEMBER 9, 2010",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img23":
+            {
+                "teaserheadline":"MARCH 5",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"MARCH 5, 2011",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img24":
+            {
+                "teaserheadline":"JUNE 13, 2011",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JUNE 13, 2011",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img25":
+            {
+                "teaserheadline":"JULY 9",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JULY 9, 2011",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img26":
+            {
+                "teaserheadline":"FEBRUARY 15",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"FEBRUARY 15, 2012",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img27":
+            {
+                "teaserheadline":"MAY 23",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"MAY 23, 2012",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img28":
+            {
+                "teaserheadline":"SEPTEMBER 22",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"SEPTEMBER 22, 2012",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img29":
+            {
+                "teaserheadline":"DECEMBER 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"DECEMBER 1, 2012",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img30":
+            {
+                "teaserheadline":"JANUARY 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JANUARY 1, 2013",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img31":
+            {
+                "teaserheadline":"JANUARY 1",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JANUARY 1, 2013",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img32":
+            {
+                "teaserheadline":"JANUARY 5",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JANUARY 5, 2013",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "img33":
+            {
+                "teaserheadline":"JANUARY 5",
+                "teaser":"Duis aute irure dolor in reprehenderit in ",
+                "headline":"JANUARY 5, 2013",
+                "txt":"Duis aute irure dolor in reprehenderit in "
+            },
+            "footer1":
+            {
+                "txt":"THEATER & SHOWTIMES",
+                "hrf":"http://www.best-man.com"
+            },
+            "footer2":
+            {
+                "txt":"RELATIONSHIP BLOG",
+                "hrf":"http://www.best-man.com"
+            },
+            "footer3":
+            {
+                "txt":"OFFICIAL SITE",
+                "hrf":"http://www.best-man.com"
+            }
+        }        
+    },
+
+    "files":
+    [{
+        "src": "images/lights/fly5.png",
+        "type": "IMAGE",
+        "size": 1000,
+        "dest": ["firefly"]
+    },
+     {
+        "src": "images/lights/fly6.png",
+        "type": "IMAGE",
+        "size": 1000,
+        "dest": ["firefly"]
+    },
+     {
+        "src": "images/menu/jordan.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Jordan",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/harper.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Harper",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/quentin.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Quentin",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/shelby.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Shelby",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/julian.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Julian",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/quentin.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Quentin",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/robin.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Robin",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/lance.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Lance",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/menu/candy.jpg",
+        "type": "IMAGE",
+        "size": 2000,
+        "name": "Candy",
+        "dest": ["menu"]
+    },
+     {
+       "src": "images/gallery/1.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img1",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/2.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img2",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/3.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img3",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/4.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img4",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/5.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img5",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/6.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img6",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/7.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img7",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/8.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img8",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/9.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img9",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/10.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img10",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/11.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img11",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/12.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img12",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/13.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img13",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/14.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img14",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/15.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img15",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/16.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img16",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/17.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img17",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/18.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img18",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/19.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img19",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/20.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img20",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/21.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img21",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/22.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img22",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/23.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img23",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/24.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img24",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/25.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img25",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/26.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img26",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/27.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img27",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/28.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img28",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/29.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img29",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/30.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img30",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/31.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img31",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/32.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img32",
+        "dest": ["splashpage", "timeline"]
+    },
+     {
+       "src": "images/gallery/33.jpg",
+        "type": "IMAGE",
+        "size": 175000,
+        "name": "Img33",
+        "dest": ["splashpage", "timeline"]
+    }],
+    
+    "splashpage":
+    {
+        "tags": [".splash-left"]
+               
+    },
+    
+    "filters":
+    {
+      "tags": [".filters"],
+      "menu": 
+        [{
+            "id":"one",
+            "name":"Jordan",
+            "asset":"Jordan",
+            "filtername":"jordan"
+        }, 
+        {
+            "id":"two",
+            "name":"Harper",
+            "asset":"Harper",
+            "filtername":"harper"
+        }, 
+        {
+            "id":"three",
+            "name":"Quentin",
+            "asset":"Quentin",
+            "filtername":"quentin"
+        }, 
+        {
+            "id":"four",
+            "name":"Shelby",
+            "asset":"Shelby",
+            "filtername":"shelby"
+        }, 
+        {
+            "id":"five",
+            "name":"Julian",
+            "asset":"Julian",
+            "filtername":"julian"
+        }, 
+        {
+            "id":"six",
+            "name":"Robin",
+            "asset":"Robin",
+            "filtername":"robin"
+        }, 
+        {
+            "id":"seven",
+            "name":"Lance",
+            "asset":"Lance",
+            "filtername":"lance"
+        }, 
+        {
+            "id":"eight",
+            "name":"Candy",
+            "asset":"Candy",
+            "filtername":"candy"
+        }]
+    }, 
+    
+    "timeline":
+    {
+        "tags": [".gallerycolumns"],
+		"dates": 
+        [{
+            "sectionname":"2000",
+            "assets":
+            [{
+                "asset":"Img1",
+                "txt":"img1",
+                "filter": ["harper", "candy"]
+            }]
+        },
+        {
+            "sectionname":"2001",
+            "assets":
+            [{
+                "asset":"Img2",
+                "txt":"img2",
+                "filter":["harper", "candy"]
+            },
+            {
+                "asset":"Img3",
+                "txt":"img3",
+                "filter":["harper", "candy"]
+            },
+            {
+                "asset":"Img4",
+                "txt":"img4",
+                "filter":["harper"]
+            }]
+        },
+        {
+            "sectionname":"2002",
+            "assets":
+            [{
+                "asset":"Img5",
+                "txt":"img5",
+                "filter":["harper", "julian", "quentin"]
+            }]
+        },
+        {
+            "sectionname":"2003",
+            "assets":
+            [{
+                "asset":"Img6",
+                "txt":"img6",
+                "filter":["harper"]
+            }]
+        },
+        {
+            "sectionname":"2004",
+            "assets":
+            [{
+                "asset":"Img7",
+                "txt":"img7",
+                "filter":["harper", "julian", "quentin"]
+            }]
+        },
+        {
+            "sectionname":"2005",
+            "assets":
+            [{
+                "asset":"Img8",
+                "txt":"img8",
+                "filter":["harper", "shelby", "robin", "lance", "candy"]
+            },
+            {
+                "asset":"Img9",
+                "txt":"img9",
+                "filter":["harper"]
+            }]
+        },
+        {
+            "sectionname":"2006",
+            "assets":
+            [{
+                "asset":"Img10",
+                "txt":"img10",
+                "filter":["julian"]
+            },
+            {
+                "asset":"Img11",
+                "txt":"img11",
+                "filter":["harper", "shelby"]
+            }]
+        },
+        {
+            "sectionname":"2007",
+            "assets":
+            [{
+                "asset":"Img12",
+                "txt":"img12",
+                "filter":["harper", "lance"]
+            },
+            {
+                "asset":"Img13",
+                "txt":"img13",
+                "filter":["julian", "lance", "candy"]
+            }]
+        },
+        {
+            "sectionname":"2008",
+            "assets":
+            [{
+                "asset":"Img14",
+                "txt":"img14",
+                "filter":["julian"]
+            },
+            {
+                "asset":"Img15",
+                "txt":"img15",
+                "filter":["quentin"]
+            },
+            {
+                "asset":"Img16",
+                "txt":"img16",
+                "filter":["jordan", "lance"]
+            }]
+        },
+        {
+            "sectionname":"2009",
+            "assets":
+            [{
+                "asset":"Img17",
+                "txt":"img17",
+                "filter":["harper", "lance"]
+            },
+            {
+                "asset":"Img18",
+                "txt":"img18",
+                "filter":["robin"]
+            },
+            {
+                "asset":"Img19",
+                "txt":"img19",
+                "filter":["harper"]
+            }]
+        },
+        {
+            "sectionname":"2010",
+            "assets":
+            [{
+                "asset":"Img20",
+                "txt":"img20",
+                "filter":["jordan"]
+            },
+            {
+                "asset":"Img21",
+                "txt":"img21",
+                "filter":["julian", "candy"]
+            },
+            {
+                "asset":"Img22",
+                "txt":"img22",
+                "filter":["candy"]
+            }]
+        },
+        {
+            "sectionname":"2011",
+            "assets":
+            [{
+                "asset":"Img23",
+                "txt":"img23",
+                "filter":["candy"]
+            },
+            {
+                "asset":"Img24",
+                "txt":"img24",
+                "filter":["jordan", "harper"]
+            },
+            {
+                "asset":"Img25",
+                "txt":"img25",
+                "filter":["jordan"]
+            }]
+        },
+        {
+            "sectionname":"2012",
+            "assets":
+            [{
+                "asset":"Img26",
+                "txt":"img26",
+                "filter":["jordan"]
+            },
+            {
+                "asset":"Img27",
+                "txt":"img27",
+                "filter":["robin", "lance"]
+            },
+            {
+                "asset":"Img28",
+                "txt":"img28",
+                "filter":["julian", "candy"]
+            },
+            {
+                "asset":"Img29",
+                "txt":"img29",
+                "filter":["harper", "quentin", "julian", "lance"]
+            }]
+        },
+        {
+            "sectionname":"2013",
+            "assets":
+            [{
+                "asset":"Img30",
+                "txt":"img30",
+                "filter":["jordan", "harper", "quentin", "julian"]
+            },
+            {
+                "asset":"Img31",
+                "txt":"img31",
+                "filter":["jordan", "harper", "quentin"]
+            },
+            {
+                "asset":"Img32",
+                "txt":"img32",
+                "filter":["jordan", "lance"]
+            },
+            {
+                "asset":"Img33",
+                "txt":"img33",
+                "filter":["jordan", "harper", "quentin", "shelby", "julian", "robin", "lance", "candy"]
+            }]
+        }]
+    },
+    
+    "footer":
+    {
+        "tags": [".links"],
+        "menu" : [{
+                    "txt":"footer1",
+                    "url": "http://www.best-man.com/",
+                    "target": "_blank"
+                  },
+                  {
+                    "txt":"footer2",
+                    "url": "http://www.best-man.com/",
+                    "target": "_blank"
+                  }, 
+                  {
+                    "txt":"footer3",
+                    "url": "http://www.best-man.com/",
+                    "target": "_blank"
+                  }]        
+    }
+}

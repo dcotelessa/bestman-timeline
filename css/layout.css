@@ -1,0 +1,608 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+	.background {
+		background: url('../images/specific/bg.jpg') repeat-y scroll;
+        background-position: center top;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1; }
+
+/* #Page Styles
+================================================== */
+    .splashpage{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .splash-container{
+        margin-top: 100px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .splash-gallery-container, .sample-gallery-container{
+        margin-left: 50%;
+    }
+
+    .splash-gallery-container{
+        margin-top: 0px;
+        z-index: 1;
+    }
+
+    .sample-gallery-container{
+        z-index: 2;
+    }
+
+    .splash-left{
+        margin-left: -820px;
+    }
+
+    .splash-middle{
+        width: 526px;
+        margin: 0 auto;
+    }
+
+    .splashheader{
+        height: 276px;
+    }
+
+    .samplegrid{
+        width:2100px;
+        margin-left: -1020px;
+    }
+
+    .splash-description, .splash-navigation{
+        line-height: 1em;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .splash-description{
+        font-size: 1.5em;
+    }
+
+    .splash-navigation{
+        font-size: 1em;
+    }
+
+    .splashimage-container, .sampleimage-container{
+        opacity: 0;
+        float: left;
+    }
+    .splashimage-container{
+        width: 180px;
+        height: 120px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .sampleimage-container, .sampleimage{
+        width: 303px;
+        height: 187px;
+    }
+
+    .sampleimage-container{
+       margin: 100px 50px;
+    }
+
+    #sa_1{
+        margin: 100px 580px 0 0;
+    }
+
+    .container{
+        width: 1120px;}
+
+    .header, .footer {
+        width: 100%;}
+
+    .header, .gallerycontainer {
+        position: absolute;
+        display: none;
+    }
+
+    .header .container, .footer {
+        background: rgba(0, 0, 0, 0.65);
+    }
+    
+    .header {
+        z-index: 2;
+    }
+
+    .filters {
+        padding-bottom: 0;
+        border-top: 2px solid rgba(104, 104, 106, 0.4);
+        padding-top: 1em;
+    }
+    .filters li{
+        text-align:center;
+        display:none;
+        width:71px;
+        float:left;
+        list-style-type:none; }
+
+/*
+FONTS
+*/
+
+    .character, .link-container, .filtermenu-header, .splash-description, .splash-navigation, .gallerytext-container p, .biggallery p {
+        font-family: condensed;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    .galleryheader, .gallerytext-container h1, .biggallery h1 {
+        font-family: bold;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+/*
+MENU
+*/
+    .filtermenu {
+        margin-top : 0.2em;
+        height: 110px;
+        overflow: hidden;
+    }
+
+    .filtermenu-header {
+        font-size : 1.4em;
+        padding: 1.2em 0 .2em 0; }
+
+    .character{
+        margin-right: .5em;
+        font-size: 1.2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .menu{
+        width: 70px;
+        height: 90px;
+        position:absolute;
+    }
+
+    .character p{
+        margin-top: 75px;
+        position:absolute;
+        display:block;
+        width: 70px;
+    }
+
+    .menucircle {
+    background-repeat:no-repeat;
+    width: 70px; height: 70px;
+    border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border: 0px solid rgba(255, 255, 255, 1);
+    position:absolute;
+    
+    behavior: url(scripts/lib/PIE.htc); 
+    }
+
+
+    /*a:hover .menucircle {
+    width: 66px; height: 66px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    }*/
+
+/*
+TIMELINE/GALLERY
+*/
+
+    .sparebar {
+        display: none;
+        position: absolute;
+        margin: 200px 0 0 0;
+        width: 100%;
+        height: 28px;
+        background: rgb(206, 50, 50);
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        z-index: -1;
+    }
+
+    /*.hilight {
+        /* blank 
+    }*/
+
+    .biggallery, .gallerybuttons-more{
+        width: 446px;
+        position: absolute;
+}
+
+    .biggallery{
+        background: url('../images/specific/polaroid.png') no-repeat;
+        height: 380px;
+        opacity: 0;
+        display: none;
+    }
+
+    .biggallery h1, .biggallery p{
+        margin-left: 23px;
+        margin-right: 23px;
+        color: #000;
+        display: block;
+        float: left;
+    }
+
+    .biggallery img{
+        margin: 15px 16px 5px 16px;
+        width: 414px;
+        height: 276px;
+    }
+
+    .biggallery h1{
+        margin-top: 0;
+        margin-bottom: .2em;
+        font-size: 1.68em;
+    }
+
+    .biggallery p{
+        font-size: 1.3em;
+        margin-top: 0;
+        margin-bottom: .25em;
+    }
+
+    .gallerycontainer {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    .gallery{
+        margin: 200px auto;
+        height: 100%;
+    }
+
+    .gallerycolumn {
+        overflow: hidden;
+        margin-left: 390px; /*two 1/2 columns over */
+        display: inline;
+        float: left;
+        width: 180px;
+        height: 100%;
+        line-height: 0;
+        position: absolute;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 1px;
+    }
+
+    .galleryheader {
+        /*border-left: 1px solid rgba(255, 255, 255, 0.3);
+        /border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+        z-index: 10;
+    }
+
+     .galleryimage {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .galleryimage-container {
+        border: 0;
+        height: 120px;
+    }
+
+
+    .galleryimage, .gallerytext-container{
+        position: absolute;
+    }
+
+    .gallerytext-container{
+        color: #fff;
+        font-size: 1em;
+        display: none;
+        width: 182px;
+        height: 122px;
+        background-color: rgba(0,0,0, 0.4);
+        z-index: 1;
+        padding: 0;
+        overflow:hidden;
+        cursor:pointer;
+        
+    }
+
+    .gallerytext-container h1{
+        font-size: 1.2em;
+        line-height: 22px;
+        margin: 18px 5px 5px 10px;
+    }
+
+    .gallerytext-container p{
+       border-top: 1px solid rgba(255, 255, 255, 0.4);
+       padding-top: 5px;
+       margin: 2px 10px 0 12px;
+        line-height: 18px;
+    }
+
+    .galleryheader {
+        background: rgb(206, 50, 50);
+        color: #fff;
+        width: 162px;
+        height: 18px;
+        margin:0;
+        padding: 8px 0 2px 16px;
+        line-height: 1em;
+        cursor: pointer;
+    }
+    
+    .galleryheader-hilight{
+        display:none;
+        background-color: rgba(255, 255, 255, 0.4);
+        width: 164px;
+        height: 30px;
+        margin: -8px 0 -2px -16px;
+        position: absolute;
+    }
+
+    .galleryimage, .splashimage {
+        width: 180px;
+        height: 120px;
+        margin:0;
+    }
+
+/*
+FOOTER
+*/
+    .footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height:40px;
+        z-index: 3;
+    }
+
+    .link-container{
+        width: 1000px;
+        margin: 0 auto;
+        font-weight:bold;
+        font-size: 1.2em;
+        padding: 0.1em 2.3em 1em; }
+
+    .links {
+        width:555px;
+    }
+
+    .links ul{
+        list-style-type:none;
+        margin: 0.2em 0.6em; }
+
+    .links a {
+        float:left;
+        margin-right:3em; }
+
+    .links p {
+        /* over ride base */
+        margin: 0; 
+    }
+
+
+    
+    .icons {
+        margin-top: -28px;
+        margin-right: 12px;
+        float: right;
+        display: block;
+    }
+
+    .icons ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        float: left;
+    } 
+
+    .icons ul li {
+        margin: 16px 2px;
+        width: 24px;
+        height: 24px;
+        float:left;
+        overflow: hidden;
+        background: url('../images/specific/social_icons.png') no-repeat;
+        cursor: pointer;
+    }
+
+    .icons ul li:hover {
+        opacity: 0.6;
+    }
+
+   /* .icons ul li..facebook {
+    
+    }*/
+
+    .icons ul li.twitter {
+        background-position: -28px 0;  
+    }
+
+    .icons ul li.tumblr {
+        background-position: -55px 0; 
+    }
+
+    .icons ul li.pinterest {
+        background-position: -83px 0; 
+    }
+
+/*
+TRIANGLES
+*/
+    .gallerybuttons{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+    }
+        
+    .gallerybuttons-container{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .gallerybuttons-more{
+        margin: 170px 391px 0;
+        height: 450px;
+        z-index: -1;
+        pointer-events: auto;
+    }
+
+    .gallerybuttons-more .gallerybutton.up, .gallerybuttons-more .gallerybutton.down{
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .gallerybuttons-more .gallerybutton.up{
+        margin: 0px 46% 0;
+    }
+
+    .gallerybuttons-more .gallerybutton.down{
+        margin: 402px 46% 0;
+    }
+
+    .gallerybutton {
+        opacity: 0;
+        position:absolute;
+        width: 48px; 
+        height: 48px; 
+        border-radius: 24px 24px 24px 24px;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        background-color: #fff;
+        cursor: pointer;
+    
+        behavior: url(scripts/lib/PIE.htc);    
+    }
+
+    .gallerybuttons .gallerybutton.left, .gallerybuttons .gallerybutton.right {
+        margin-top: 330px;
+    }
+
+    .gallerybuttons .gallerybutton.up, .gallerybuttons .gallerybutton.down {
+        left: 50%;
+        margin-left: 24px;
+    }
+
+    .gallerybuttons .gallerybutton.left {
+        left: 0;
+        margin-left: 10px;
+    }
+
+    .gallerybuttons .gallerybutton.right {
+        right: 0;
+        margin-right:10px;
+    }
+
+    .gallerybuttons .gallerybutton.down {
+        margin-top: 555px;
+    }
+
+    .gallerybuttons .gallerybutton.up {
+        margin-top: 180px;
+    }
+
+    .gallerybutton .hilight{
+        display: none;
+        width: 100%; 
+        height: 100%;
+        position: absolute;
+        background: rgba(255, 255, 255, .4);
+    }
+
+    .arrow {
+        width: 0; 
+        height: 0;
+        position: absolute;
+    }
+
+    .arrow.left {
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent; 
+        border-right:10px solid black;
+        margin: 15px 15px 0 17px;
+    }
+
+    .arrow.right {
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent; 
+        border-left:10px solid black;
+        margin: 15px 15px 0 20px;
+    }
+
+    .arrow.up {
+        border-bottom: 10px solid black;
+        border-left: 10px solid transparent; 
+        border-right:10px solid transparent;
+        margin: 20px 0px 0 14px;
+    }
+
+
+    .arrow.down {
+        border-top: 10px solid black;
+        border-left: 10px solid transparent; 
+        border-right:10px solid transparent;
+        margin: 20px 0px 0 14px;
+    }
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) 
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) *\/
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) *\/
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) *\/
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) *\/
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+
+    @font-face {
+        font-family: 'condensed';
+        font-weight: 900;
+	    src: url('../css/fonts/2804D4_0_0.eot');
+	    src: url('../css/fonts/2804D4_0_0.eot?#iefix') format('embedded-opentype'),
+	         url('../css/fonts/2804D4_0_0.ttf') format('truetype'),
+	         url('../css/fonts/2804D4_0_0.woff') format('woff'); }
+
+    @font-face {
+        font-family: 'bold';
+        font-weight: 400;
+	    src: url('../css/fonts/27DDF5_0_0.eot');
+	    src: url('../css/fonts/27DDF5_0_0.eot?#iefix') format('embedded-opentype'),
+	         url('../css/fonts/27DDF5_0_0.ttf') format('truetype'),
+	         url('../css/fonts/27DDF5_0_0.woff') format('woff'); }

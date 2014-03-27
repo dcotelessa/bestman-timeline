@@ -1,0 +1,179 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<!-- Comments
+	================================================== 
+	
+    Created by Heavenspot.
+	
+        v0.1 - David Cotelessa (9/27/2013)
+	
+	1. Using Skeleton boilerplate as base for html/css/ to keep site responsive and clean across platforms. (*)
+	2. Using jQuery to create an animated image grid timeline.(*)
+	3. Using SVG/CSS3/jQuery to create animated bokeh effect in background.
+	4. Using jSon/jQuery to load alll images before moving forward into the timeline.(*)
+	5. Upon clicking a list of filters, the grid will re-render selections based on filters.
+	6. Upon selection of a year, a stacked set of "pictures" will show up that can be toggled through.
+	7. The timeline will be clickable through arrow keys/gestures/mouse.
+	
+	================================================== -->
+
+<head>
+    
+    <!-- Basic Page Needs
+  ================================================== -->
+    <title>The Best Man Holiday Timeline</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="The Best Man Holiday Timeline">
+	<meta name="author" content="">
+    
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="apple-mobile-web-app-console" content="yes">
+    <meta name="apple-touch-fullscreen">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	
+
+    <!-- Scripts
+    ================================================== -->
+    <script type="text/javascript" src="scripts/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/lib/underscore-min.js"></script>
+    <script src="scripts/lib/csssearch-0.1.js"></script>
+    <script type="text/javascript" src="scripts/lib/loader.js"></script>
+    <script src="scripts/lib/jquery-firefly-0.1.js"></script>
+	
+</head>
+<body>
+    
+    <!-- Primary Page Layout
+	================================================== -->
+    
+    <!--Splash Page-->
+    
+    <div id="splashpage" class="splashpage">
+<!-- This is the splash page. It will stay in place as assets load. It will be a place to display assets as they load. -->
+        <div class="splash-container sample-gallery-container">
+            <div class="samplegrid"></div>
+        </div>
+        <div class="splash-container splash-gallery-container">
+            <div class="splash-left"></div>
+        </div>
+        <div class="splash-container">
+            <div class="splash-middle">
+                <div class="splashheader"></div>
+                <div class="splash-description"></div>
+                <div class="splash-navigation"></div>
+            </div>
+        </div>
+    </div><!-- splashpage -->
+  
+              
+    <!--Background-->
+    
+    <div id="background" class="background">
+            <!-- This is where the bokeh will be. -->
+    </div><!-- background -->
+        
+    <!--Timeline-->
+        
+    <div id="header" class="header">
+	       <div class="container">
+                <div class="header-container sixteen columns">
+                        <div class="logo five columns alpha"></div>
+                        <div class="filtermenu-container eleven columns omega">
+                                <div class="filtermenu-header eleven columns clearfix">
+                                </div>
+                                <div id="filtermenu" class="filtermenu eleven columns clearfix">
+                                     <ul id="filters" class="filters">
+                                     </ul>
+                                </div>
+                                
+                        </div>
+                    </div>
+            </div>
+    </div><!-- header -->
+    
+    <div id="gallerybuttons-container" class="gallerycontainer sixteen columns gallerybuttons-container">
+            <div class="container">  
+              <div class="gallerybuttons-more"><div class="gallerybutton down"><div class="hilight"></div><div class="arrow down"></div></div><div class="gallerybutton up"><div class="hilight"></div><div class="arrow up"></div></div></div>  
+              </div>
+    </div>     
+     
+    <div id="gallerycontainer" class="gallerycontainer sixteen columns">
+              
+        <div class="sparebar"></div>
+        <div id="gallery" class="gallery container">
+            <ul id="gallerycolumns" class="gallerycolumns">
+            </ul>
+        </div>
+        
+
+    </div>
+          
+    <div id="footer" class="footer">
+            <div class="link-container sixteen columns">
+                 <ul class="links">
+                 </ul>
+                 
+                <div class="icons">
+                    <ul>
+                        <li class="facebook"></li>
+                        <li class="twitter"></li>
+                        <li class="tumblr"></li>
+                        <li class="pinterest"></li>
+                    </ul>
+                </div>
+                </div>
+                
+             </div>
+    
+    <div class="gallerybuttons">
+        <div class="gallerybutton left">
+                <div class="hilight"></div>  
+                <div class="arrow left"></div>
+        </div>
+        <div class="gallerybutton right">  
+                <div class="hilight"></div>  
+                <div class="arrow right"></div>
+        </div>
+        <div class="gallerybutton up">  
+                <div class="hilight"></div>  
+                <div class="arrow up"></div>
+        </div>
+        <div class="gallerybutton down">  
+                <div class="hilight"></div>  
+                <div class="arrow down"></div>
+        </div>
+    </div>
+
+<!-- End Document
+================================================== -->
+
+
+<!-- Scripts
+================================================== -->
+<script type="text/javascript" src="scripts/bmtimeline.js"></script>
+	
+</body>
+</html>
